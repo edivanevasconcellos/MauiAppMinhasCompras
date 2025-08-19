@@ -64,22 +64,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Resources\Splash\views\EditarProduto.xaml.cs">
+	  <Compile Update="Resources\Splash\Views\EditarProduto.xaml.cs">
 	    <DependentUpon>EditarProduto.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Resources\Splash\views\ListaProduto.xaml.cs">
+	  <Compile Update="Resources\Splash\Views\ListaProduto.xaml.cs">
 	    <DependentUpon>ListaProduto.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Resources\Splash\views\EditarProduto.xaml">
+	  <MauiXaml Update="Resources\Splash\Views\EditarProduto.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Resources\Splash\views\ListaProduto.xaml">
+	  <MauiXaml Update="Resources\Splash\Views\ListaProduto.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Resources\Splash\views\NovoProduto.xaml">
+	  <MauiXaml Update="Resources\Splash\Views\NovoProduto.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
