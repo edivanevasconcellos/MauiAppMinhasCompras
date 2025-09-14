@@ -1,4 +1,4 @@
-﻿using MauiAppMinhasCompras.Properties.helpers;
+﻿using MauiAppMinhasCompras.Helpers;
 
 namespace MauiAppMinhasCompras
 {

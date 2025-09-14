@@ -11,7 +11,7 @@ public partial class ListaProduto : ContentPage
     {
         try
         {
-            Navigation.PushAsync(new Views.NovoProduto());
+            using Task _ = Navigation.PushAsync(new Views.NovoProduto());
 
         }
         catch (Exception ex)

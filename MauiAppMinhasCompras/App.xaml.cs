@@ -1,20 +1,20 @@
-﻿using MauiAppMinhasCompras.Properties.helpers;
+﻿using MauiAppMinhasCompras.Helpers;
 
 namespace MauiAppMinhasCompras
 {
-    public partial class App : Application,App
+    public partial class App : Application
     {
-        private static SQLiteDatabaseHelper _db;
+        static SQLiteDatabaseHelper _db;
 
-        // Propriedade estática para acessar o banco de dados
-        public static SQLiteDatabaseHelper DB
+        public static SQLiteDatabaseHelper Db
         {
             get
             {
                 if (_db == null)
                 {
                     string path = Path.Combine(
-                        Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                        Environment.GetFolderPath(
+                            Environment.SpecialFolder.LocalApplicationData),
                         "banco_sqlite_compras.db3");
 
                     _db = new SQLiteDatabaseHelper(path);
@@ -28,11 +28,8 @@ namespace MauiAppMinhasCompras
         {
             InitializeComponent();
 
-         
+            //MainPage = new AppShell();
             MainPage = new NavigationPage(new Views.ListaProduto());
         }
     }
 }
-
-
-

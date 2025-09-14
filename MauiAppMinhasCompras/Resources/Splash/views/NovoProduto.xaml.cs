@@ -1,9 +1,15 @@
+
 namespace MauiAppMinhasCompras.Resources.Splash.views;
 
 public partial class NovoProduto : ContentPage
 {
 	public NovoProduto()
 	{
-		InitializeComponent();
+        InitializeComponent();
 	}
+
+    private void InitializeComponent()
+    {
+        throw new NotImplementedException();
+    }
 }
